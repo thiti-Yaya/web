@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1px;
+    color : black	;
+}
+
+.wrapper h3{
+    font-size: 60px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.wrapper p{
+    font-size: 20px;
+    position: relative;
+
+}
+.banner {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    left: 50%;
+    top: -2%;
+    transform: translateX(-50%);
+}
